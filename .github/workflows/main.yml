@@ -1,9 +1,9 @@
 name: CICD-SSH
-on:
-  push:
-      branches: [ main ]
-      paths:
-        - 'part2/04-cicd/**'
+on: [push]
+#   push:
+#       branches: [ main ]
+#       paths:
+#         - 'part2/04-cicd/**'
 
 jobs:
   build:
