@@ -18,7 +18,7 @@ jobs:
         port: 2234
         script: |
             #cd ${{ github.event.repository.name }}
-            cd ..
+            cd /opt/ml
             pwd
             ls -alh
             # sh deploy_ssh.sh
