@@ -1,6 +1,6 @@
 name: CICD-SSH
 on: [push]
-#   push:
+#   push: 
 #       branches: [ main ]
 #       paths:
 #         - 'part2/04-cicd/**'
