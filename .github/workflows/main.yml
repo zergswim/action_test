@@ -18,7 +18,8 @@ jobs:
         port: 2234
         script: |
             #cd ${{ github.event.repository.name }}
-            cd /opt/ml
+            cd /opt/ml/streamlit
             pwd
             ls -alh
+            git pull origin main
             # sh deploy_ssh.sh
