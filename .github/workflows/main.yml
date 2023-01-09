@@ -18,7 +18,7 @@ jobs:
         port: 2234
         script: |
             #cd ${{ github.event.repository.name }}
-            cd /opt/ml/streamlit
+            cd /opt/ml/streamlit/action_test
             pwd
             ls -alh
             git pull origin main
